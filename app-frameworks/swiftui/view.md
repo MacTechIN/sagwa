@@ -11,7 +11,8 @@ Protocol
 
 사용자가 뷰 프로토콜로에서 확인된 형태를 선언함으로서 직접 사용자정의 뷰를 생성할 수 있다.
 사용자정의 뷰에 컨텐츠를 제공하기 위해 원하는 본문에 계산된 요소를 적용시키면 된다.
-...swift 
+
+,,,swift
  struct MyView: View {
     var body: some View {
          Text("Hello, World!")
